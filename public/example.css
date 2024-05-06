@@ -1,0 +1,71 @@
+.image-balloon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:80%;
+  width:40%;
+  padding: 40px 30px 30px 30px;
+}
+
+.words {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 96px;
+  color: white;
+  text-align: center;
+}
+
+.window {
+  position: absolute;
+  width: 100vw;
+  height: 90vh;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #488AD7;
+}
+.iframeWindow {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  display:none;
+}
+
+#urlInput {
+  position: absolute;
+  padding: 0em;
+  padding-left: 0.5em;
+  margin: 0;
+  left: 0;
+  top: 0;
+  width: 80vw;
+  height: 10vh;
+  border: 0;
+  outline: 0;
+  color: white;
+  background-color: #d8d8d8;
+  font-size: 5vh;
+  font-family: 'Courier New', monospace;
+}
+
+#searchButton {
+  position: absolute;
+  margin: 0;
+  right: 0;
+  top: 0;
+  width: 20vw;
+  height: 10vh;
+  border: 0;
+  outline: 0;
+  color: #eeeeee;
+  background-color: #2d2d2d;
+  font-size: 5vh;
+  font-family: 'Courier New', monospace;
+}
